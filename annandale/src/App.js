@@ -1,6 +1,6 @@
 import styles from './App.css';
 import {NavBar} from './navbar';
-import {GenInfo, YouthFPA} from './geninfo';
+import {GenInfo, Softball, Baseball} from './geninfo';
 
 var React = require('react');
 var ReactDOM = require('react-dom');
@@ -13,7 +13,8 @@ var App = React.createClass({
 	    	<div>
 		    	<NavBar />
 		    	<GenInfo />
-		    	<YouthFPA />
+		    	<Softball />
+		    	<Baseball />
 		    </div>
 	    );
 	}
