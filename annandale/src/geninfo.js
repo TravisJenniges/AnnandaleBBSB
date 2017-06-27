@@ -5,7 +5,7 @@ export class GenInfo extends React.Component {
 	render() 
 	{
 		return (		
-			<div>			
+			<div className="Content">			
 				<h2>General Information</h2>
 				<p>This is a traveling league with ASA/AABC/MSF sanction and member of the Crow River Youth Baseball Associaion and Crow River Fast Pitch Association</p>
 			</div>
@@ -16,8 +16,8 @@ export class Softball extends React.Component {
 	render() 
 	{
 		return (
-			<div>
-				<div>
+			<div id="softball">
+				<div className="Content">
 					<h2>ATL Youth Fast Pitch Association</h2>
 					<ul id="fpaInfo">
 						<li>Bracket of player is determined by age through December 31 of the previous year of participation (see registration form).</li>
@@ -32,7 +32,7 @@ export class Softball extends React.Component {
 						<li>IOU Teams are not tiered</li>
 					</ul>
 				</div>
-				<div>
+				<div className="Content">
 					<h2>Tier II Softball</h2>
 					<ul>
 						<li>Most Players will be registered in this division.</li>
@@ -41,7 +41,7 @@ export class Softball extends React.Component {
 						<li>Rules: <a href="http://www.CrowRiverFastPitch.com" target="_blank">See Crow River Youth Softball web page</a>.</li>
 					</ul>
 				</div>
-				<div>
+				<div className="Content">
 					<h2>Tier I Softball</h2>
 					<ul>
 						<li>Player should have previously played in summer traveling league and is participating in AHS softball.</li>
@@ -55,6 +55,7 @@ export class Softball extends React.Component {
 					</ul>
 				</div>
 			</div>
+
 		);
 	}
 };
@@ -62,13 +63,13 @@ export class Baseball extends React.Component {
 	render()
 	{
 		return (
-			<div>
-				<div>
+			<div id="baseball">
+				<div className="Content">
 					<h2>Crow River Youth Baseball Association</h2>
 					<p>Bracket of player is determined by age through April 30 of current year of participation (see registration form).</p>
 					<p><a href="http://www.Herald-Journal.com/rec/baseball.html" target="_blank">CRYB Rules</a>.</p>
 				</div>
-				<div>
+				<div className="Content">
 					<h2>Divison B Baseball</h2>
 					<ul>
 						<li>Most players are expected to be playing in this division.</li>
@@ -76,7 +77,7 @@ export class Baseball extends React.Component {
 						<li>Weekend tournament at the discretion of coaches.</li>
 					</ul>
 				</div>
-				<div>
+				<div className="Content">
 					<h2>Division A Baseball</h2>
 					<ul>
 						<li>Player should have played previously in summer traveling league and is participating in AHS baseball if a program is available.</li>

@@ -9,6 +9,6 @@ export class NavBar extends React.Component {
 		var pageLI = pages.map(function(page, i) {
 			return <li key={'link_'+i}><a href={page}>{page}</a></li>
 		});
-		return (<ul>{pageLI}</ul>);
+		return (<ul id="nav">{pageLI}</ul>);
 	}
 };

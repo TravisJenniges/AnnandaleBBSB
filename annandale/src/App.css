@@ -1,28 +1,55 @@
-.App {
+.PageCont {
+  float: right;
+  margin-left: 300px;
+  margin-top: -200px;
+}
+.Content h2 {
+  color:#A10000;
+  font-family: "Arial-Black";
   text-align: center;
+  width: 75%;
 }
+.Content ul {
+  list-style-image: url('pics/bball-clip.png');
+}
+#nav {
+  float:left;
+  height: 100%;
+  margin: 10px 15px;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+#nav li:first-child {
+  border-top-width: 2px;
 }
-
-.App-intro {
-  font-size: large;
+#nav li:last-child {
+  border-bottom-width: 2px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#nav li{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial Black;
+  list-style-type: none;
+  color: #F9F8F8;
+  background: #5D5B5B;
+  background: -webkit-linear-gradient(left top, black, gray);
+  background: -o-linear-gradient(bottom right, black, gray); 
+  background: -moz-linear-gradient(bottom right, black, gray);
+  background: linear-gradient(to bottom right, black, gray); 
+  width: 150px;
+  height: 30px;
+  padding: 10px 5px 5px 10px;
+  border-width: 1px 2px;
+  border-style: solid;
+  border-color: black;
 }
-.App h1 {
-    color: blue;
+#nav li a:visited, #nav li a:link, #nav li a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+#nav li a {
+  display:block;
+  width: 150px;
+  height: 50px;
 }
 

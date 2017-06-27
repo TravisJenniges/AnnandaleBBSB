@@ -2,4 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #F9F8F8;
+  background: -webkit-linear-gradient(left top, #F9F8F8, white);
+  background: -o-linear-gradient(bottom right, #F9F8F8, white); 
+  background: -moz-linear-gradient(bottom right, #F9F8F8, white);
+  background: linear-gradient(to bottom right, #F9F8F8, white);
 }

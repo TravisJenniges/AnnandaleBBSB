@@ -12,9 +12,11 @@ var App = React.createClass({
 	    return (
 	    	<div>
 		    	<NavBar />
-		    	<GenInfo />
-		    	<Softball />
-		    	<Baseball />
+		    	<div className="PageCont">
+			    	<GenInfo />
+			    	<Softball />
+			    	<Baseball />
+			    </div>
 		    </div>
 	    );
 	}
