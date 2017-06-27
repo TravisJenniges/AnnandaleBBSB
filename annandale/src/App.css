@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 .PageCont {
   float: right;
   margin-left: 300px;
   margin-top: -200px;
 }
+.PageCont li, p {
+  font-family: 'Bitter', 'serif';
+}
 .Content h2 {
   color:#A10000;
-  font-family: "Arial-Black";
+  font-family: 'Bitter', 'serif';
   text-align: center;
   width: 75%;
 }
@@ -28,7 +32,7 @@
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  font-family: Arial Black;
+  font-family: 'Bitter', 'serif';
   list-style-type: none;
   color: #F9F8F8;
   background: #5D5B5B;
