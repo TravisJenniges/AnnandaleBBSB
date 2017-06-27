@@ -1,3 +1,4 @@
+import { Router, IndexRoute, Route } from 'react-router';
 import styles from './App.css';
 import {NavBar} from './navbar';
 import {GenInfo, Softball, Baseball} from './geninfo';
@@ -5,9 +6,8 @@ import {GenInfo, Softball, Baseball} from './geninfo';
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var App = React.createClass({
-    render:
-	function()
+export class App extends React.Component {
+    render()
 	{
 	    return (
 	    	<div>
@@ -20,6 +20,16 @@ var App = React.createClass({
 		    </div>
 	    );
 	}
-});
+};
+export class Levels extends React.Component {
+	render() 
+	{
+		return (
+			<div>
+				<h2>Levels</h2>
+			</div>
 
-export default App;
+		);
+	}
+};
+
