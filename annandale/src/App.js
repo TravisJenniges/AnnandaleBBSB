@@ -57,7 +57,19 @@ export class Schedules extends React.Component {
 				<div className="PageCont">
 				</div>
 			</div>
-		)
+		);
 	}
-}
+};
+export class Contact extends React.Component {
+	render()
+	{
+		return (
+			<div>
+				<NavBar />
+				<div className="PageCont">
+				</div>
+			</div>
+		);
+	}
+};
 

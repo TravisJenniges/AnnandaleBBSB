@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var pages = ['home', 'levels', 'rules', 'schedules'];
+var pages = ['home', 'levels', 'rules', 'schedules', 'contact'];
 
 export class NavBar extends React.Component {
 	render() 
