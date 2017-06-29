@@ -72,4 +72,15 @@ export class Contact extends React.Component {
 		);
 	}
 };
-
+export class Coach extends React.Component {
+	render()
+	{
+		return (
+			<div>
+				<NavBar />
+				<div className="PageCont">
+				</div>
+			</div>
+		);
+	}
+};

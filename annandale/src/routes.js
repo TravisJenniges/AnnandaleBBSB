@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route } from 'react-router';
 
-import { App, Levels, Rules, Schedules, Contact } from './App';
+import { App, Levels, Rules, Schedules, Contact, Coach } from './App';
 
 const Routes = (props) => (
   <Router {...props}>
@@ -11,6 +11,7 @@ const Routes = (props) => (
     <Route path = "rules" component={Rules} />
     <Route path = "schedules" component={Schedules} />
     <Route path = "contact" component={Contact} />
+    <Route path = "coaches%20corner" component={Coach} />
   </Router>
 );
 
