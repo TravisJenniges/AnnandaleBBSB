@@ -2,6 +2,12 @@
 new Annandale Travel League website
 http://www.annandalebbsb.org/ is the existing site
 
+# Build Instructions
+
+Project build with `create react app`
+Navigate to root directory `/annandale` and run command `npm start`
+Project will run at `http://localhost:3000`
+
 # Architecture
 
 JavaScript app
