@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 .PageCont {
-  float: right;
-  margin-left: 300px;
-  margin-top: -200px;
+  float: left;
+  margin-top: 0px;
+}
+.PageCont h2 {
+    color: #000000;
 }
 .PageCont li, p {
   font-family: 'Bitter', 'serif';
@@ -14,7 +16,7 @@
   width: 75%;
 }
 .Content ul {
-  list-style-image: url('pics/bball-clip.png');
+  list-style-image: url('../pics/bball-clip.png');
 }
 #nav {
   float:left;
@@ -37,9 +39,9 @@
   color: #F9F8F8;
   background: #5D5B5B;
   background: -webkit-linear-gradient(left top, black, gray);
-  background: -o-linear-gradient(bottom right, black, gray); 
+  background: -o-linear-gradient(bottom right, black, gray);
   background: -moz-linear-gradient(bottom right, black, gray);
-  background: linear-gradient(to bottom right, black, gray); 
+  background: linear-gradient(to bottom right, black, gray);
   width: 150px;
   height: 30px;
   padding: 10px 5px 5px 10px;
@@ -56,4 +58,3 @@
   width: 150px;
   height: 50px;
 }
-
