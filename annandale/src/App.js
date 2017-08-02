@@ -61,7 +61,7 @@ export class Schedules extends React.Component {
                 */}
 			    	<Date varsityBaseball="12B" bigWoods="10A">June 10</Date>
                     <Date clearwater1="9AA" southHaven="12B">June 11</Date>
-                    <Date bigWoods="13A"/>
+                    <Date bigWoods="13A">June 12</Date>
 			    </div>
 		    </div>
 	    )

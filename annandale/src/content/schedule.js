@@ -21,7 +21,10 @@ export class Date extends React.Component {
             );
         })
         return (
-            <ul>{fieldAvail}</ul>
+            <div>
+                <h2>{this.props.children}</h2>
+                <ul>{fieldAvail}</ul>
+            </div>
         )
     }
 }
