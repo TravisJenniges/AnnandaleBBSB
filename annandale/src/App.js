@@ -17,7 +17,6 @@ export class App extends React.Component {
 			    	<GenInfo />
 			    	<Softball />
 			    	<Baseball />
-                    <Date />
 			    </div>
 		    </div>
 	    )
@@ -30,7 +29,6 @@ export class Levels extends React.Component {
 			<div>
 				<NavBar />
 				<div className="PageCont">
-                    <Date />
 				</div>
 			</div>
 
@@ -61,7 +59,9 @@ export class Schedules extends React.Component {
                 * Date props: {varsityBaseball, clearwater1, clearwater2, cityPark, bigWoods, southHaven, middleSchool, varsitySoftball}
                 * Fairly confident there is a better way to do this... will do more research
                 */}
-			    	<Date varsityBaseball="12B" bigWoods="10A"/>
+			    	<Date varsityBaseball="12B" bigWoods="10A">June 10</Date>
+                    <Date clearwater1="9AA" southHaven="12B">June 11</Date>
+                    <Date bigWoods="13A"/>
 			    </div>
 		    </div>
 	    )
